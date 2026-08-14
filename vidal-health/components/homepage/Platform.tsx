@@ -20,7 +20,7 @@ export default function Platform() {
           <span className="eyebrow">Platform Capabilities</span>
           <h2 className="sec-title">Modular by design. Connected by intelligence.</h2>
           <p className="sec-sub">
-            Every Vidal product solves a specific problem on its own. Deployed together, they share data and decision context across every workflow — compounding value that disconnected systems can never produce.
+            Every Vidal Health product solves a specific problem on its own. Deployed together, they share data and decision context across every workflow — compounding value that disconnected systems can never produce.
           </p>
         </motion.div>
 

@@ -151,7 +151,7 @@ function HeroVisual() {
                         {active && <motion.div animate={{ scale: [0.6, 1.1, 0.6] }} transition={{ duration: 1.0, repeat: Infinity }} style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'white' }} />}
                         {!done && !active && <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'rgba(255,255,255,0.1)' }} />}
                       </motion.div>
-                      <div style={{ fontSize: '12.5px', fontWeight: 600, color: (done || active) ? 'rgba(255,255,255,0.62)' : 'rgba(255,255,255,0.3)', textAlign: 'center', lineHeight: 1.2, maxWidth: '44px' }}>{s.label}</div>
+                      <div style={{ fontSize: '12.5px', fontWeight: 600, color: (done || active) ? 'rgba(255,255,255,0.62)' : 'rgba(255,255,255,0.3)', textAlign: 'center', lineHeight: 1.2, maxWidth: '58px', wordBreak: 'break-word' }}>{s.label}</div>
                     </div>
                   );
                 })}
@@ -184,7 +184,7 @@ function HeroVisual() {
                         {active && <motion.div animate={{ scale: [0.6, 1.1, 0.6] }} transition={{ duration: 1.0, repeat: Infinity }} style={{ width: '7px', height: '7px', borderRadius: '50%', background: 'white' }} />}
                         {!done && !active && <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: 'rgba(255,255,255,0.1)' }} />}
                       </motion.div>
-                      <div style={{ fontSize: '12.5px', fontWeight: 600, color: (done || active) ? 'rgba(255,255,255,0.62)' : 'rgba(255,255,255,0.3)', textAlign: 'center', lineHeight: 1.2, maxWidth: '44px' }}>{s.label}</div>
+                      <div style={{ fontSize: '12.5px', fontWeight: 600, color: (done || active) ? 'rgba(255,255,255,0.62)' : 'rgba(255,255,255,0.3)', textAlign: 'center', lineHeight: 1.2, maxWidth: '58px', wordBreak: 'break-word' }}>{s.label}</div>
                     </div>
                   );
                 })}
@@ -615,46 +615,19 @@ function FinalCTA() {
     <section className="cta-band">
       <div style={{ borderBottom: '1px solid rgba(255,255,255,0.08)', paddingBottom: '32px', marginBottom: '40px' }}>
         <FadeUp>
-          <div className="outcome-row" style={{ marginBottom: '20px' }}>
+          <div className="stat-strip stat-strip--dark" style={{ gridTemplateColumns: 'repeat(5, 1fr)', marginBottom: '20px' }}>
             {[
               { v: '150M+',        l: 'Lives'      },
               { v: 'Pan-Asia',     l: 'Operations' },
               { v: 'Enterprise',   l: 'Scale'      },
               { v: 'Multi-market', l: 'Reach'      },
               { v: '20+',          l: 'Years'      },
-            ].map((s, i) => (
-              <div
-                key={s.l}
-                className="outcome-cell"
-                style={{
-                  textAlign: 'center',
-                  padding: '0 12px',
-                  borderLeft: i > 0 ? '1px solid rgba(255,255,255,0.12)' : 'none',
-                }}
-              >
-                <div style={{ fontSize: '1.05rem', fontWeight: 800, color: 'var(--brand-lime)', letterSpacing: '-0.03em' }}>{s.v}</div>
-                <div style={{ fontSize: '11px', color: 'rgba(255,255,255,0.45)', marginTop: '5px', fontWeight: 500 }}>{s.l}</div>
+            ].map(s => (
+              <div key={s.l} className="stat-strip-cell" style={{ textAlign: 'center' }}>
+                <div className="stat-strip-v">{s.v}</div>
+                <div className="stat-strip-l">{s.l}</div>
               </div>
             ))}
-          </div>
-          <div className="impl-trust" style={{ marginTop: 0 }}>
-            <span className="impl-trust-label">Certified &amp; compliant</span>
-            <div className="impl-trust-pillars impl-trust-pillars--4">
-              {[
-                { icon: Lock, label: 'ISO 27001', detail: 'Information security management' },
-                { icon: FileCheck, label: 'SOC 2', detail: 'Security & privacy audit' },
-                { icon: ShieldCheck, label: 'HIPAA', detail: 'Health data privacy compliance' },
-                { icon: Shield, label: 'GDPR', detail: 'EU data protection compliance' },
-              ].map(p => (
-                <div key={p.label} className="impl-trust-pillar">
-                  <span className="impl-trust-icon"><p.icon size={16} /></span>
-                  <div>
-                    <div className="impl-trust-name">{p.label}</div>
-                    <div className="impl-trust-detail">{p.detail}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </FadeUp>
       </div>

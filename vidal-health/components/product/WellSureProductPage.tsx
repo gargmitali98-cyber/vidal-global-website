@@ -143,7 +143,7 @@ function WellSureHero() {
               Preventive health.<br />Higher engagement.<br /><span className="hl">Lower claims costs.</span>
             </h1>,
             <p key="p" className="hero-sub">
-              WellSure is Vidal's enterprise wellness platform — helping insurers and employers drive preventive care adoption, build lasting health habits, and reduce long-term claims costs through unified member engagement.
+              WellSure is Vidal Health's enterprise wellness platform — helping insurers and employers drive preventive care adoption, build lasting health habits, and reduce long-term claims costs through unified member engagement.
             </p>,
             <div key="btns" className="hero-actions">
               <Link href="/contact?intent=demo" className="btn btn-teal btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: '7px' }}>
@@ -261,7 +261,7 @@ function WellSureSolution() {
         <FadeUp delay={0.14}>
           <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.06)', borderRadius: '12px', padding: '16px 22px', display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap', maxWidth: '900px', margin: '0 auto' }}>
             <div style={{ fontSize: '11px', fontWeight: 700, color: 'rgba(255,255,255,0.28)', textTransform: 'uppercase', letterSpacing: '0.10em', flexShrink: 0 }}>Platform connects to</div>
-            {['Vidal Provider Network', 'Claims & ENIGMA', 'Member Mobile App', 'Insurer Analytics', 'Employer HR Systems'].map(tag => (
+            {['Vidal Health Provider Network', 'Claims & ENIGMA', 'Member Mobile App', 'Insurer Analytics', 'Employer HR Systems'].map(tag => (
               <div key={tag} style={{ display: 'flex', alignItems: 'center', gap: '5px', background: 'rgba(0,112,113,0.08)', border: '1px solid rgba(0,112,113,0.14)', borderRadius: '999px', padding: '4px 11px' }}>
                 <div style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--brand-lime)', flexShrink: 0 }} />
                 <span style={{ fontSize: '11px', fontWeight: 600, color: 'rgba(255,255,255,0.52)' }}>{tag}</span>

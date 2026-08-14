@@ -273,7 +273,7 @@ function EcosystemFlow() {
           <span className="eyebrow">Platform Integration</span>
           <h2 className="sec-title">One ecosystem. Zero silos.</h2>
           <p className="sec-sub">
-            Every Vidal product shares a unified data layer. Risk profiles built in pricing feed claims adjudication. Fraud signals from ENIGMA block payments in real time. Network eligibility powers the mobile app. No integration project required — it is built in.
+            Every Vidal Health product shares a unified data layer. Risk profiles built in pricing feed claims adjudication. Fraud signals from ENIGMA block payments in real time. Network eligibility powers the mobile app. No integration project required — it is built in.
           </p>
         </motion.div>
 

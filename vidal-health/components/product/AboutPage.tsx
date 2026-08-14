@@ -13,7 +13,7 @@ const MILESTONES = [
   { year: '2002', title: 'Founded', desc: 'TPA incorporated — one of the first in India, managing health insurance for leading insurers.' },
   { year: '2006–07', title: 'Investment', desc: 'Swiss Re joins as shareholder, validating the model and accelerating growth.' },
   { year: '2010', title: 'Government Scale', desc: 'Started servicing government health schemes, dramatically expanding lives under management.' },
-  { year: '2013', title: 'Independence', desc: 'TTK group exits — Vidal becomes a 100% independent subsidiary, sharpening technology focus.' },
+  { year: '2013', title: 'Independence', desc: 'TTK group exits — Vidal Health becomes a 100% independent subsidiary, sharpening technology focus.' },
   { year: '2016–17', title: 'International', desc: 'Expands internationally, acquiring Globalnet TPA to establish Gulf operations.' },
   { year: '2021–22', title: 'Consolidation', desc: 'Acquires Vipul TPA, solidifying market share and operational scale across India.' },
   { year: '2024', title: 'Bajaj Era', desc: 'Acquired by Bajaj Finserv Ltd — the start of the next chapter as an AI-native platform.' },
@@ -204,7 +204,7 @@ function WhyEnterprises() {
           viewport={{ once: true }}
           transition={{ duration: 0.55, ease }}
         >
-          <span className="eyebrow">Why Enterprises Choose Vidal</span>
+          <span className="eyebrow">Why Enterprises Choose Vidal Health</span>
           <h2 className="sec-title">Built for the complexity of health insurance</h2>
         </motion.div>
 
@@ -301,7 +301,7 @@ function GlobalPresence() {
 function AboutCTA() {
   return (
     <section className="cta-band">
-      <h2>Ready to evaluate Vidal for your organisation?</h2>
+      <h2>Ready to evaluate Vidal Health for your organisation?</h2>
       <p>Our solutions team will walk you through the platform and how it maps to your operations.</p>
       <div className="cta-btns">
         <Link href="/contact?intent=demo" className="btn btn-teal btn-lg">

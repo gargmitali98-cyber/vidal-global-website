@@ -25,7 +25,7 @@ export default function CaseStudies() {
             transition={{ duration: 0.55, ease }}
           >
             <span className="eyebrow">Why Vidal Health</span>
-            <h2 className="sec-title">Why Vidal, not a generic platform.</h2>
+            <h2 className="sec-title">Why Vidal Health, not a generic platform.</h2>
             <p className="sec-sub">
               Most insurance technology was built to process transactions. Vidal was built to run the operation — with two decades of health insurance focus, and an architecture where every function shares the same intelligence layer.
             </p>

@@ -154,7 +154,7 @@ export const whyCards = [
     icon: 'Layers',
     title: 'Start with one. Scale to the suite.',
     description:
-      'Every Vidal product solves a real problem on its own and connects into the wider suite. Solve your most urgent gap first — expand as your needs grow, without re-platforming.',
+      'Every Vidal Health product solves a real problem on its own and connects into the wider suite. Solve your most urgent gap first — expand as your needs grow, without re-platforming.',
   },
   {
     icon: 'Cpu',

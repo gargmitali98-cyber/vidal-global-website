@@ -45,7 +45,7 @@ const networkCategories = [
 ];
 
 const whyVidalCards = [
-  { id: 'credentialed', Icon: Shield,  title: 'Pre-Credentialed Network',       desc: 'Every provider assessed against NABH/NABL standards and Vidal quality benchmarks. Your members access care immediately — no onboarding lag.', proof: 'Credentialed before onboarding' },
+  { id: 'credentialed', Icon: Shield,  title: 'Pre-Credentialed Network',       desc: 'Every provider assessed against NABH/NABL standards and Vidal Health quality benchmarks. Your members access care immediately — no onboarding lag.', proof: 'Credentialed before onboarding' },
   { id: 'cashless',     Icon: Zap,     title: 'Cashless Infrastructure, Built', desc: 'Direct billing agreements, pre-auth protocols, and negotiated tariff schedules already live across our hospital network. Yours from day one — not negotiated from scratch.', proof: 'Direct billing agreements in place' },
   { id: 'relationships', Icon: Network, title: 'A Decade of Relationships',     desc: 'Provider trust, rate negotiations, and quality governance built over a decade. No new entrant can replicate this network — or these relationships — in months.', proof: 'A decade of relationships, impossible to shortcut' },
   { id: 'tech',         Icon: Globe,   title: 'Live Technology Layer',          desc: 'Real-time eligibility, digital pre-authorisation, e-claims submission, and a provider portal — operational the moment you go live.', proof: 'Real-time, no integration backlog' },
@@ -321,7 +321,7 @@ function INAHero() {
               India's healthcare<br />ecosystem.<br /><span className="hl">Day one access.</span>
             </h1>,
             <p key="p" className="hero-sub">
-              Vidal has spent over a decade building India's most comprehensive healthcare provider network. Global insurers, TPAs, and assistance companies access it in weeks — not years.
+              Vidal Health has spent over a decade building India's most comprehensive healthcare provider network. Global insurers, TPAs, and assistance companies access it in weeks — not years.
             </p>,
             <div key="btns" className="hero-actions">
               <Link href="/contact?intent=demo" className="btn btn-teal btn-lg" style={{ display: 'inline-flex', alignItems: 'center', gap: '7px' }}>
@@ -439,10 +439,10 @@ function WhyVidal() {
     <section className="section section-white">
       <div className="sec-in">
         <FadeUp style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <span className="eyebrow">Why Vidal</span>
+          <span className="eyebrow">Why Vidal Health</span>
           <h2 className="sec-title" style={{ maxWidth: '600px', margin: '0 auto 12px' }}>Built over a decade.<br />Impossible to replicate overnight.</h2>
           <p className="sec-sub" style={{ margin: '0 auto' }}>
-            India's healthcare ecosystem runs on relationships, trust, and local knowledge. Vidal has spent a decade building exactly that — so you don't have to.
+            India's healthcare ecosystem runs on relationships, trust, and local knowledge. Vidal Health has spent a decade building exactly that — so you don't have to.
           </p>
         </FadeUp>
 
@@ -508,14 +508,6 @@ function INAFinalCTA() {
               </div>
             ))}
           </div>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            {['IRDAI', 'DHA', 'NABH', 'NABL'].map(c => (
-              <div key={c} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 600, color: 'rgba(255,255,255,0.5)' }}>
-                <Lock size={11} style={{ color: 'var(--brand-lime)' }} />
-                {c}
-              </div>
-            ))}
-          </div>
         </FadeUp>
       </div>
 
@@ -524,7 +516,7 @@ function INAFinalCTA() {
           <Star size={9} fill="#72BF44" />
           India's most connected health network
         </span>
-        <h2>Access India's healthcare ecosystem through Vidal.</h2>
+        <h2>Access India's healthcare ecosystem through Vidal Health.</h2>
         <p>
           Whether you're a global insurer, TPA, assistance company, or travel health plan — we'll walk you through the network, coverage map, and a go-live plan for your specific use case.
         </p>

@@ -456,14 +456,6 @@ function FwaFinalCTA() {
               </div>
             ))}
           </div>
-          <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', justifyContent: 'center' }}>
-            {['SOC 2', 'ISO 27001', 'HIPAA', 'GDPR'].map(c => (
-              <div key={c} style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '12px', fontWeight: 600, color: 'rgba(255,255,255,0.5)' }}>
-                <Lock size={11} style={{ color: 'var(--brand-lime)' }} />
-                {c}
-              </div>
-            ))}
-          </div>
         </FadeUp>
       </div>
 
