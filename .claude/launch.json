@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vidal-health",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "cd vidal-health && NEXT_DIST_DIR=.next-3000 npx next start -p 3100"],
+      "port": 3100
+    }
+  ]
+}
